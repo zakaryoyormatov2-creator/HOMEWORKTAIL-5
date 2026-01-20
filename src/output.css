@@ -270,11 +270,23 @@
   .mb-10 {
     margin-bottom: calc(var(--spacing) * 10);
   }
+  .mb-20 {
+    margin-bottom: calc(var(--spacing) * 20);
+  }
+  .mb-200 {
+    margin-bottom: calc(var(--spacing) * 200);
+  }
+  .mb-2000 {
+    margin-bottom: calc(var(--spacing) * 2000);
+  }
   .flex {
     display: flex;
   }
   .table {
     display: table;
+  }
+  .h-49 {
+    height: calc(var(--spacing) * 49);
   }
   .h-\[49px\] {
     height: 49px;
@@ -338,6 +350,12 @@
   }
   .w-\[90\%\] {
     width: 90%;
+  }
+  .w-\[138\] {
+    width: 138;
+  }
+  .w-\[138px\] {
+    width: 138px;
   }
   .w-\[149px\] {
     width: 149px;
@@ -434,6 +452,10 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-\[2px\] {
+    border-style: var(--tw-border-style);
+    border-width: 2px;
+  }
   .border-b {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
@@ -452,11 +474,20 @@
   .border-\[\#A3E0E8\] {
     border-color: #A3E0E8;
   }
+  .border-\[\#FFFFFF4D\] {
+    border-color: #FFFFFF4D;
+  }
+  .border-b-\[\#4B4B4B\] {
+    border-bottom-color: #4B4B4B;
+  }
   .border-b-\[\#35AFBF\] {
     border-bottom-color: #35AFBF;
   }
   .border-b-\[1\.\] {
     border-bottom-color: 1.;
+  }
+  .bg-\[\#2C353E\] {
+    background-color: #2C353E;
   }
   .bg-\[\#35AFBF\] {
     background-color: #35AFBF;
@@ -617,8 +648,17 @@
   .pt-20 {
     padding-top: calc(var(--spacing) * 20);
   }
+  .pt-30 {
+    padding-top: calc(var(--spacing) * 30);
+  }
   .pb-10 {
     padding-bottom: calc(var(--spacing) * 10);
+  }
+  .pb-20 {
+    padding-bottom: calc(var(--spacing) * 20);
+  }
+  .pb-30 {
+    padding-bottom: calc(var(--spacing) * 30);
   }
   .text-center {
     text-align: center;
@@ -628,6 +668,9 @@
   }
   .text-\[12px\] {
     font-size: 12px;
+  }
+  .text-\[16px\] {
+    font-size: 16px;
   }
   .text-\[18px\] {
     font-size: 18px;
@@ -667,6 +710,18 @@
   }
   .text-\[\#A3E0E8\] {
     color: #A3E0E8;
+  }
+  .text-\[\#FFFFFF4D\] {
+    color: #FFFFFF4D;
+  }
+  .text-\[\#ffffff50\] {
+    color: #ffffff50;
+  }
+  .text-\[\#ffffff70\] {
+    color: #ffffff70;
+  }
+  .text-\[\#ffffff\] {
+    color: #ffffff;
   }
   .text-\[18\] {
     color: 18;
