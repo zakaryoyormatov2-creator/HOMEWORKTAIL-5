@@ -342,6 +342,9 @@
   .w-\[80\%\] {
     width: 80%;
   }
+  .w-\[80\] {
+    width: 80;
+  }
   .w-\[83\] {
     width: 83;
   }
@@ -407,6 +410,12 @@
   }
   .gap-1 {
     gap: calc(var(--spacing) * 1);
+  }
+  .gap-2 {
+    gap: calc(var(--spacing) * 2);
+  }
+  .gap-2\.5 {
+    gap: calc(var(--spacing) * 2.5);
   }
   .gap-5 {
     gap: calc(var(--spacing) * 5);
@@ -651,6 +660,15 @@
   .pt-30 {
     padding-top: calc(var(--spacing) * 30);
   }
+  .pr-20 {
+    padding-right: calc(var(--spacing) * 20);
+  }
+  .pr-70 {
+    padding-right: calc(var(--spacing) * 70);
+  }
+  .pr-\[70px\] {
+    padding-right: 70px;
+  }
   .pb-10 {
     padding-bottom: calc(var(--spacing) * 10);
   }
@@ -713,6 +731,9 @@
   }
   .text-\[\#FFFFFF4D\] {
     color: #FFFFFF4D;
+  }
+  .text-\[\#\] {
+    color: #;
   }
   .text-\[\#ffffff50\] {
     color: #ffffff50;
