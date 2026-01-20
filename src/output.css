@@ -387,6 +387,9 @@
   .justify-center {
     justify-content: center;
   }
+  .gap-1 {
+    gap: calc(var(--spacing) * 1);
+  }
   .gap-5 {
     gap: calc(var(--spacing) * 5);
   }
@@ -466,6 +469,9 @@
   }
   .bg-\[\#F3FEFF\] {
     background-color: #F3FEFF;
+  }
+  .bg-\[\[\#D1F4F9\]\] {
+    background-color: [#D1F4F9];
   }
   .bg-white {
     background-color: var(--color-white);
@@ -548,6 +554,15 @@
   .px-15 {
     padding-inline: calc(var(--spacing) * 15);
   }
+  .px-50 {
+    padding-inline: calc(var(--spacing) * 50);
+  }
+  .px-80 {
+    padding-inline: calc(var(--spacing) * 80);
+  }
+  .px-100 {
+    padding-inline: calc(var(--spacing) * 100);
+  }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
@@ -569,6 +584,9 @@
   .py-20 {
     padding-block: calc(var(--spacing) * 20);
   }
+  .py-30 {
+    padding-block: calc(var(--spacing) * 30);
+  }
   .py-35 {
     padding-block: calc(var(--spacing) * 35);
   }
@@ -584,11 +602,20 @@
   .text-center {
     text-align: center;
   }
+  .text-start {
+    text-align: start;
+  }
+  .text-\[12px\] {
+    font-size: 12px;
+  }
   .text-\[18px\] {
     font-size: 18px;
   }
   .text-\[21px\] {
     font-size: 21px;
+  }
+  .text-\[32px\] {
+    font-size: 32px;
   }
   .text-\[38\%\] {
     font-size: 38%;
@@ -601,6 +628,9 @@
   }
   .text-\[51px\] {
     font-size: 51px;
+  }
+  .text-\[\#4B4C4C\] {
+    color: #4B4C4C;
   }
   .text-\[\#35AFBF\] {
     color: #35AFBF;
@@ -619,6 +649,9 @@
   }
   .text-\[18\] {
     color: 18;
+  }
+  .text-\[32\] {
+    color: 32;
   }
   .text-white {
     color: var(--color-white);
