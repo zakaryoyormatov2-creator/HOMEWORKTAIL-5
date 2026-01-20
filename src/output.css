@@ -270,8 +270,14 @@
   .table {
     display: table;
   }
+  .h-\[83px\] {
+    height: 83px;
+  }
   .w-\[9-0\] {
     width: 9-0;
+  }
+  .w-\[23\%\] {
+    width: 23%;
   }
   .w-\[35\%\] {
     width: 35%;
@@ -281,6 +287,12 @@
   }
   .w-\[80\%\] {
     width: 80%;
+  }
+  .w-\[83\] {
+    width: 83;
+  }
+  .w-\[83px\] {
+    width: 83px;
   }
   .w-\[90\%\] {
     width: 90%;
@@ -306,6 +318,9 @@
   .flex-col {
     flex-direction: column;
   }
+  .items-baseline-last {
+    align-items: last baseline;
+  }
   .items-center {
     align-items: center;
   }
@@ -324,16 +339,26 @@
   .gap-10 {
     gap: calc(var(--spacing) * 10);
   }
+  .rounded {
+    border-radius: 0.25rem;
+  }
   .rounded-\[5px\] {
     border-radius: 5px;
   }
   .rounded-\[10px\] {
     border-radius: 10px;
   }
+  .rounded-\[50\%\] {
+    border-radius: 50%;
+  }
   .rounded-\[px\] {
     border-radius: px;
   }
   .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
+  .border-\[1px\] {
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
@@ -349,6 +374,9 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 2px;
   }
+  .border-\[\#A3E0E8\] {
+    border-color: #A3E0E8;
+  }
   .border-b-\[\#35AFBF\] {
     border-bottom-color: #35AFBF;
   }
@@ -357,6 +385,12 @@
   }
   .bg-\[\#35AFBF\] {
     background-color: #35AFBF;
+  }
+  .bg-\[\#A3E0E8\] {
+    background-color: #A3E0E8;
+  }
+  .bg-\[\#D1F4F9\] {
+    background-color: #D1F4F9;
   }
   .bg-\[\#F3FEFF\] {
     background-color: #F3FEFF;
@@ -454,11 +488,23 @@
   .py-35 {
     padding-block: calc(var(--spacing) * 35);
   }
+  .pt-20 {
+    padding-top: calc(var(--spacing) * 20);
+  }
   .pb-10 {
     padding-bottom: calc(var(--spacing) * 10);
   }
+  .text-center {
+    text-align: center;
+  }
   .text-\[21px\] {
     font-size: 21px;
+  }
+  .text-\[38\%\] {
+    font-size: 38%;
+  }
+  .text-\[38px\] {
+    font-size: 38px;
   }
   .text-\[51px\] {
     font-size: 51px;
@@ -466,11 +512,17 @@
   .text-\[\#35AFBF\] {
     color: #35AFBF;
   }
+  .text-\[\#252626\] {
+    color: #252626;
+  }
   .text-\[\#707273\] {
     color: #707273;
   }
   .text-\[\#969999\] {
     color: #969999;
+  }
+  .text-\[\#A3E0E8\] {
+    color: #A3E0E8;
   }
   .text-white {
     color: var(--color-white);
