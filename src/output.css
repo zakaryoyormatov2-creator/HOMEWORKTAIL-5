@@ -282,6 +282,9 @@
   .h-\[83px\] {
     height: 83px;
   }
+  .w-\[\%\] {
+    width: %;
+  }
   .w-\[9-0\] {
     width: 9-0;
   }
@@ -317,6 +320,12 @@
   }
   .w-\[45\%\] {
     width: 45%;
+  }
+  .w-\[50\%\] {
+    width: 50%;
+  }
+  .w-\[55\%\] {
+    width: 55%;
   }
   .w-\[80\%\] {
     width: 80%;
@@ -359,6 +368,9 @@
   }
   .flex-col {
     flex-direction: column;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
   }
   .items-baseline-last {
     align-items: last baseline;
